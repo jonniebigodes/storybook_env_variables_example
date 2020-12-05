@@ -22,7 +22,7 @@ export default function MyComponent() {
       ) : (
         <div>
           <h3>Storybook dev environmnent variable</h3>
-          <h4>{process.env.REACT_APP_VARIABLE_DEV}</h4>
+          <h4>{process.env.STORYBOOK_VARIABLE_DEV}</h4>
           <h3>React environment variable</h3>
           <h4>{process.env.REACT_APP_VARIABLE_DEV}</h4>
         </div>
